@@ -21,7 +21,7 @@ $$ P_v =\frac{1}{2} \rho V_2 $$
 
 $$ V = \sqrt \frac{2P_v}{\rho}  ----------(2) $$
 
-Where,
+Where,  
 P<sub>v</sub> = velocity pressure in Pa,  
 ρ = air density in kg/m3 and  
 V = air velocity in m/s  

@@ -1,4 +1,5 @@
-/* Lab:exp_9_Precise Traversing in a Duct using Pitot Tube
+/* Lab: Mine Automation and Virtual Reality
+    Exp: Precise Traversing in a Duct using Pitot Tube
 	 File name: graphplotly9.js
    Author:Prakriti Dhang
 */

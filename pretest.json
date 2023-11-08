@@ -1,0 +1,16 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "To conduct the precise traversing, the whole cross-section is divided into certain number of equal areas.",
+      "answers": {
+        "a": "False",
+        "b": "True"
+        
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

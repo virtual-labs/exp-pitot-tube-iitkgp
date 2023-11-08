@@ -1,0 +1,327 @@
+/* Lab: Mine Automation and Virtual Reality
+    Exp: Precise Traversing in a Duct using Pitot Tube
+	 File name: main.css
+   Author:Prakriti Dhang
+*/
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+table,th,td{
+    text-align: center;
+}
+
+.img-container{
+    display:inline-block;
+    position: relative;
+  }
+  
+  .poscol{
+    width: 100%;
+    min-width: 23px;
+    min-height: 1px;
+    }
+    
+    .poscol img{
+      max-width: 100%;
+      height: auto;
+    }
+
+    #ductimg{
+        position: relative;
+        top:0%;
+        left:0%;
+        width:100%;
+      
+    }
+
+#measurept{
+    position: absolute;
+    top: 250%;
+    left:0%;
+    width:30%;
+}
+
+#pitot_tube{
+    position: absolute;
+    top:50%;
+    left:38.5%; 
+    width:12%;
+}
+
+#connect1{
+    position: absolute;
+    top:130%;
+    left:44%;
+    width:65%;
+}
+
+#connect2{
+    position: absolute;
+    top:130%;
+    left:28%;
+    width:40%;
+    transform: rotate(18deg);
+    }
+#connect3{
+    position: absolute;
+    top:245%;
+    left:48%;
+    width:25%;
+    transform: rotate(1deg);
+}
+#pressurebox{
+    position: absolute;
+    top:260%;
+    left:55%;
+    width:10%;
+}
+
+#scale{
+    position: absolute;
+    top:245%;
+    left:64%;
+    width:50%;
+    height:24%;
+    transform: rotate(-40deg);
+
+}
+
+
+
+#myCanvas{
+    position: absolute;
+    top: 139%;
+    left:86%;
+    width:2%;
+    height:215%;
+    transform: rotate(50deg) ;
+    }
+
+
+    
+
+
+    
+
+    #r1{
+        position: absolute;
+        top: 315%;
+        left:0.5%;
+        width:0%;
+        height: 40%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr1{
+    position: absolute;
+    top: 350%;
+    left:-1%;
+    font-size: small;
+    font-weight: bold;
+    }
+
+    #r2{
+        position: absolute;
+        top: 315%;
+        left:2.7%;
+        width:0%;
+        height: 55%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr2{
+        position: absolute;
+        top: 364%;
+        left:2%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+    #r3{
+    position: absolute;
+       top: 315%;
+        left:5.7%;
+        width:0%;
+        height: 72%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr3{
+        position: absolute;
+        top: 382%;
+        left:5.2%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+
+    #r4{
+        position: absolute;
+        top: 315%;
+        left:9.2%;
+        width:0%;
+        height: 87%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr4{
+        position: absolute;
+        top: 398%;
+        left:6.7%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+
+    #r5{
+        position: absolute;
+        top: 315%;
+        left:12.7%;
+        width:0%;
+        height: 95%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr5{
+        position: absolute;
+        top: 405%;
+        left:11.2%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+    #r6{
+        position: absolute;
+        top: 315%;
+        left:14.4%;
+        width:0%;
+        height:110%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr6{
+        position: absolute;
+        top: 420%;
+        left:14.4%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+    #r7{
+        position: absolute;
+        top: 315%;
+        left:15.9%;
+        width:0%;
+        height: 95%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr7{
+        position: absolute;
+        top: 405%;
+        left:15.9%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+
+    #r8{
+    position: absolute;
+    top: 315%;
+    left:19%;
+    width:0%;
+    height: 86%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr8{
+        position: absolute;
+        top: 395%;
+        left:18%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+    #r9{
+        position: absolute;
+        top: 315%;
+        left:22.8%;
+        width:0%;
+        height: 72%;
+    border-radius: 80%;
+    background-color: red;
+    }
+    #tr9{
+        position: absolute;
+        top: 382%;
+        left:20.5%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+    #r10{
+        position: absolute;
+        top: 315%;
+        left:26.2%;
+        width:0%;
+        height: 55%;
+        border-radius: 80%;
+        background-color: red;
+    }
+    #tr10{
+        position: absolute;
+        top: 364%;
+        left:23.2%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+    #r11{
+        position: absolute;
+        top: 315%;
+        left:29%;
+        width:0%;
+        height: 40%;
+        border-radius: 80%;
+        background-color: red;
+    }
+    #tr11{
+        position: absolute;
+        top: 350%;
+        left:29%;
+        font-size: small;
+        font-weight: bold;
+
+        }
+        @media print {
+            body {-webkit-print-color-adjust: exact !important;
+               
+                
+            }
+            }
+            @page {
+                margin: 1in; 
+              }
+              
+            @print {
+               @page :footer {
+                  display: none;
+                  
+                   
+               }
+             
+               @page :header {
+                  display: none;
+                  
+               }
+           }
+           @media print {
+            #myPlot9 {
+              padding-right: 1cm;
+            }
+          }
